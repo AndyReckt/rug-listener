@@ -1,0 +1,15 @@
+[package]
+name = "rugplay-terminal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+tokio-tungstenite = { version = "0.26.2", features = ["native-tls"] }
+futures-util = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ratatui = "0.29"
+crossterm = "0.29"
+chrono = "0.4"
+anyhow = "1.0"
