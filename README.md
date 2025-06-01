@@ -4,7 +4,10 @@ A real-time terminal-based application for monitoring rugplay.com trades and pri
 
 ## 📹 Demo
 
-![Demo Video](video/rug-listener.mp4)
+<video width="100%" controls>
+  <source src="video/rug-listener.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 _Watch the application in action - real-time trade monitoring and price tracking with mouse and keyboard interaction_
 
